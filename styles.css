@@ -1,0 +1,51 @@
+.unlock-screen {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px;
+}
+
+.unlock-screen h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.passcode-input {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.letter-display {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.photo-gallery img {
+    margin: 15px;
+    border-radius: 10px;
+    max-width: calc(33.333% - 30px);
+}
+
+.sparkles {
+    position: relative;
+    animation: sparkle 1.5s infinite alternate;
+}
+
+@keyframes sparkle {
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
